@@ -12,3 +12,7 @@ El proceso de normalización de bases de datos consiste en aplicar una serie de 
 ### Requerimientos
 
 * Motor de base de datos de Microsoft SQL Server version Express
+
+### Diagramas Relacionales
+
+* [APP GenMyModel](https://app.genmymodel.com/api/repository/Kevin%20Ivan%20Cruz%20Medina/Diagramarelacional)
