@@ -71,7 +71,7 @@ GO
 -- Create the table in the specified schema
 CREATE TABLE dbo.usuarioTicket
 (
-    casoTicket_Id INT NOT NULL,
+    casoTicket_Id [INT] NOT NULL,
     usuario_Id [INT] NOT NULL,
     CONSTRAINT pkUsuarioTicket PRIMARY KEY(casoTicket_Id,usuario_Id),
     CONSTRAINT fkTicketUsuario FOREIGN KEY(casoTicket_Id) REFERENCES casoTicket(id),
